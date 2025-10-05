@@ -29,19 +29,19 @@ def keep_alive():
 keep_alive()
 
 
-TOKEN = os.getenv("TOKEN")
+TOKEN = os.getenv(TOKEN)
 if not TOKEN:
     print("경고 : 봇 토큰을 설정해 주세요! TOKEN 환경 변수에 실제 봇 토큰을 입력해야 합니다.")
 
-NEXON_API_KEY = os.getenv("NEXON_API_KEY")
+NEXON_API_KEY = os.getenv(NEXON_API_KEY)
 if not NEXON_API_KEY:
     print("경고 : 봇 토큰을 설정해 주세요! 넥API 환경 변수에 실제 봇 토큰을 입력해야 합니다.")
 
-ADMIN_USER_ID = os.getenv("ADMIN_USER_ID")
+ADMIN_USER_ID = os.getenv(ADMIN_USER_ID)
 if not ADMIN_USER_ID:
     print("경고 : 봇 토큰을 설정해 주세요! AD유저ID 환경 변수에 실제 봇 토큰을 입력해야 합니다.")
 
-OPENAI_API_KEY = os.getenv("OPENAI_API_KEY")
+OPENAI_API_KEY = os.getenv(OPENAI_API_KEY)
 if not OPENAI_API_KEY:
     print("경고 : 봇 토큰을 설정해 주세요! openai 환경 변수에 실제 봇 토큰을 입력해야 합니다.")
 
