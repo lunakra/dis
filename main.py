@@ -29,9 +29,6 @@ def keep_alive():
 keep_alive()
 
 
-TOKEN = os.getenv(TOKEN)
-if not TOKEN:
-    print("경고 : 봇 토큰을 설정해 주세요! TOKEN 환경 변수에 실제 봇 토큰을 입력해야 합니다.")
 
 NEXON_API_KEY = os.getenv(NEXON_API_KEY)
 if not NEXON_API_KEY:
