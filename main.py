@@ -139,6 +139,7 @@ bot = commands.Bot(command_prefix='!', intents=intents)
 
 TEST_GUILD_ID = 1417736200701349970
 
+client = OpenAI(api_key=OPENAI_API_KEY)
 
 # --- 모달 (Modal) 정의: /민준 명령어를 위한 질문 창 ---
 class MinjunPromptModal(discord.ui.Modal, title="민준이에게 질문하기"):
